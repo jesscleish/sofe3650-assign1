@@ -4,18 +4,13 @@
     Daniel Gohara Kamel, Jessica Leishman */
 
 public class ElectronicsFactory extends ProductFactory {
-    public Product createProductA(){ // creates phone (KEYWORD: PHONE -> for using on textfile to get item price)
-        //need to have it set the price
+    public Phone createProductA(){ // creates phone
+
         return new Phone();
     }
 
-    public Product createProductB(){ // creates tablet (KEYWORD: TABLE)
-        //constructor to create table#
-        //need to have it set the price
+    public Tablet createProductB(){ // creates tablet
+
         return new Tablet();
-    }
-
-    public void setPrice(){ // sets the price of the product using keyword to find corresponding price in text file
-
     }
 }

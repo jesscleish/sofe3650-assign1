@@ -4,17 +4,12 @@
     Daniel Gohara Kamel, Jessica Leishman */
 
 public class ClothesFactory extends ProductFactory {
-    public Product createProductA(){ // creates shirt (KEYWORD: SHIRT -> for using on textfile to get item price)
-        //need to have it set the price
+    public Shirt createProductA(){ // creates shirt
         return new Shirt();
     }
 
-    public Product createProductB(){ // creates pants (KEYWORD: PANTS)
-        //need to have it set the price
+    public Pants createProductB(){ // creates pants
         return new Pants();
     }
 
-    public void setPrice(){ // sets the price of the product using keyword to find corresponding price in text file
-
-    }
 }

@@ -4,6 +4,6 @@
     Daniel Gohara Kamel, Jessica Leishman */
 
 public interface Product {
-     //has attribute  price
+    String getName(); //obtains this.productName
     double getPrice(); //obtains this.price
 }

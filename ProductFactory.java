@@ -4,6 +4,6 @@
     Daniel Gohara Kamel, Jessica Leishman */
 
 public abstract class ProductFactory { //abstract class to implement factory methods and instantiate o
-    abstract Product createProductA();
-    abstract Product createProductB();
+    abstract Product createProductA(); 
+    abstract Product createProductB(); 
 }
