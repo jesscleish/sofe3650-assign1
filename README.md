@@ -5,14 +5,14 @@ Completed for Dr. Ramiro Liscano
 
 _Group 23: Adris Azimi, Abida Choudhury, Daniel Gohara Kamel, Jessica Leishman_
 # Table of Contents
-- [## Important Notes and Running Instructions](https://github.com/jessica-leishman/sofe3650-assign1#important-notes-and-running-instructions-1)
+- ## [Important Notes and Running Instructions](https://github.com/jessica-leishman/sofe3650-assign1#important-notes-and-running-instructions-1)
 - ## Assignment Outline and Planning
     - [Assignment Overview](https://github.com/jessica-leishman/sofe3650-assign1#assignment-overview)
     - [Diagrams Folder](https://github.com/jessica-leishman/sofe3650-assign1/tree/main/Diagram)
     - [FactoryPatternDriver Results/Output Screenshot (png)](https://github.com/jessica-leishman/sofe3650-assign1/blob/main/TestDriverOutput.png)
     - [Limitations](https://github.com/jessica-leishman/sofe3650-assign1#limitations)
 
-- [## Code](https://github.com/jessica-leishman/sofe3650-assign1/tree/main/Code)
+- ## [Code](https://github.com/jessica-leishman/sofe3650-assign1/tree/main/Code)
     - ### Factories
         - [Abstract factory class ProductFactory.java](https://github.com/jessica-leishman/sofe3650-assign1/blob/main/Code/ProductFactory.java)
         - [ElectronicsFactory.java](https://github.com/jessica-leishman/sofe3650-assign1/blob/main/Code/ElectronicsFactory.java)
@@ -39,6 +39,14 @@ The FactoryPatternDriver class is used to test the program. It creates two diffe
 
 ## Output Screenshot
 ![png screencap of the project output](https://github.com/jessica-leishman/sofe3650-assign1/blob/main/TestDriverOutput.png)
+
+### Expected Output
+```
+Product name: PHONE Product price: $574.75
+Product name: TABLET Product price: $778.99
+Product name: SHIRT Product price: $12.45
+Product name: PANTS Product price: $27.6
+```
 
 ## Limitations
 The product names are case sensistive for the csv, thus to minimize error all capital letters were used.
