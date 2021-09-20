@@ -4,7 +4,7 @@
     Daniel Gohara Kamel, Jessica Leishman */
 
 
-public class FactoryPatternDriver {
+public class TestDriver {
     public static void main (String[] args){
     // get Electronics Factory
     ElectronicsFactory testElec = new ElectronicsFactory();
